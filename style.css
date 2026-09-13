@@ -43,8 +43,11 @@ header {
     border-bottom: 1px solid #DBEAFE;
     box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
 }
-
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     max-width: 1200px;
     min-height: 75px;
     margin: auto;
@@ -53,7 +56,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 /* Logo */
 
 .logo {
